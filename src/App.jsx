@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Login from './pages/Login';
 import Users from './pages/Users';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/login" element={<Login />} />
             <Route path="/users" element={<Users />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+
           </Routes>
         </main>
       </div>
