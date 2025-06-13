@@ -22,7 +22,7 @@ export default function Login() {
 
     if (validUser) {
       localStorage.setItem("user", JSON.stringify(validUser));
-      navigate("/dashboard");
+      navigate("/form");
     } else {
       setError("Invalid username or password");
     }
